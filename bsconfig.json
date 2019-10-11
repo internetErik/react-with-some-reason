@@ -1,0 +1,21 @@
+{
+  "name": "react-with-some-reason",
+  "sources": {
+    "dir" : "app",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "reason": {
+    "react-jsx": 3
+  },
+  "namespace": true,
+  "refmt": 3
+}
